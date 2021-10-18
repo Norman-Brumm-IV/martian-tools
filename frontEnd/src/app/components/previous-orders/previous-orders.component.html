@@ -1,8 +1,0 @@
-<div class="container">
-  <h2>Your Previous Orders</h2>
-<div *ngFor="let group of groups" id="div_previous_orders_{{group.purchase_group_id}}">
-    <h4>Order Date: {{group.purchase_group_date | date }}</h4>
-
-    <app-order-inventory [groupID]="group.purchase_group_id"></app-order-inventory>
-</div>
-</div>
