@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.Categories;
 import net.revature.service.CategoryService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("categoriesController")
 @RequestMapping("/categories")
 public class CategoriesController {
