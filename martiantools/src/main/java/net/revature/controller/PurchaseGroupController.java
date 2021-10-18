@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.Purchase_group;
 import net.revature.service.PurchaseGroupsService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("purchaseGroupController")
 @RequestMapping("/pGroup")
 public class PurchaseGroupController {

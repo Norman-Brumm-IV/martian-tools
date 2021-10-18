@@ -15,7 +15,7 @@ import net.revature.models.Products;
 import net.revature.models.Purchased_items;
 import net.revature.service.PurchasedItemsService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("purchasedItemsController")
 @RequestMapping("/pItem")
 public class PurchasedItemsController {

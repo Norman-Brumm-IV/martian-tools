@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import net.revature.service.WishlistService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("wishlistController")
 @RequestMapping("/wishlist")
 public class WishlistController {

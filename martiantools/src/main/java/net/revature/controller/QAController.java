@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.Qa;
 import net.revature.service.QAService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("qaController")
 @RequestMapping("/qa")
 public class QAController {

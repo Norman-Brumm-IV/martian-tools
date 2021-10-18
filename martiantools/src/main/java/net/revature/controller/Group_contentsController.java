@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.GroupContentsAsProducts;
 import net.revature.service.Group_contentsService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("group_contentsController")
 @RequestMapping("/group_contents")
 public class Group_contentsController {

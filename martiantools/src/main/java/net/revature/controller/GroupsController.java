@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.Groups;
 import net.revature.service.GroupsService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("groupsController")
 @RequestMapping("/groups")
 public class GroupsController {

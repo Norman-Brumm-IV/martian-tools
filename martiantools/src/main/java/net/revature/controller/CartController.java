@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.SillyModelsAreSillyButTheyWork;
 import net.revature.service.CartService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("cartController")
 @RequestMapping("/cart")
 public class CartController {

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.Comments;
 import net.revature.service.CommentService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("commentsController")
 @RequestMapping("/comments")
 @EnableTransactionManagement

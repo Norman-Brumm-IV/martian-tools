@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.revature.models.Products;
 import net.revature.service.ProductService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController("productsController")
 @RequestMapping("/products")
 public class ProductsController {
